@@ -272,19 +272,19 @@ h1 {
 .about-container {
   display: flex;
   width: 100%;
+  padding: 1rem;
 }
 
 .panel3-inner h2,
 .faq h2 {
-  font-size: 2.8rem;
+  font-size: 2.3rem;
   text-align: center;
-  margin: 2rem;
+  margin: 1rem 0;
 }
 
 .about-text-container,
 .about-img-container {
   flex: 1;
-  padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -315,7 +315,7 @@ h1 {
 .flip-card-inner {
   display: block;
   margin: 0 auto;
-  width: 70%; /* Take up full width of container */
+  width: 80%; /* Take up full width of container */
   height: 100%; /* Take up full height of container */
   transition: transform 0.6s;
   transform-style: preserve-3d; /* Preserves the 3D transformations */
@@ -520,11 +520,11 @@ h1 {
   h1 span {
     display: none;
   }
-
   .bento-container {
     flex-direction: column;
     width: 100%;
     padding: 10px;
+    margin-top: 10px;
   }
 
   .accordion {
@@ -619,6 +619,10 @@ h1 {
 
   .grow.show {
     transform: scale(1);
+  }
+
+  .panel2-inner {
+    align-items: flex-start
   }
 
   .panel2-inner,
